@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?size=626&ext=jpg&ga=GA1.1.1349321428.1706180430&semt=sph");
+    /* background-size: 280; */
+    background-size: cover;
+}
+
+.main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.register {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+form#register {
+    margin: 40px;
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
